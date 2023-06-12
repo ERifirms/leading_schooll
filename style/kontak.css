@@ -151,8 +151,6 @@ body {
 /* Navbar and moble */
 
 /* content one start*/
-
-/* content one start*/
 .conten-foto {
   background-image: url("../assets/images/cover.png");
   background-position: center;
@@ -183,6 +181,23 @@ body {
   font-size: 14px;
 }
 /* content one end*/
+@media only screen and (max-width: 400px) {
+  .content1 {
+    flex-wrap: wrap;
+  }
+  .content1-1 .content1-child1 {
+    width: 90vw;
+  }
+  .content1-2 .content1-child2 {
+    width: 90vw;
+  }
+  .contnet2 .contnet-2 {
+    width: 90vw;
+  }
+  .contnet3 .textarea {
+    width: 90vw;
+  }
+}
 
 /* content kontak start */
 .content-kontak {
